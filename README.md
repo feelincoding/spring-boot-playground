@@ -119,3 +119,6 @@
     - 관점 지향 프로그래밍은 관점이라는 기능을 모듈화하여 공통적으로 사용할 수 있도록 하는 프로그래밍 기법
 - PSA
   - Portability Service Abstraction
+
+
+## Batch
