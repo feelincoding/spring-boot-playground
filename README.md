@@ -26,6 +26,18 @@
 - Repository 인터페이스를 상속받는 인터페이스를 생성하고, 해당 인터페이스에는 JPA에서 제공하는 메소드를 사용할 수 있음
 - hibernate에서 자주 사용하는 메소드를 모아놓은 것
 
+## Lombok
+
+- @ToString
+- @Getter
+- @Setter
+- @NoArgsConstructor
+- @AllArgsConstructor
+- @RequiredArgsConstructor
+- @EqualsAndHashCode
+- @Data
+- @Builder
+
 ## MyBatis
 
 - SQL Mapper Framework
