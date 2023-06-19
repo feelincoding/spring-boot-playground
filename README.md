@@ -6,11 +6,25 @@
 - 객체와 관계형 데이터베이스의 데이터를 자동으로 매핑(연결)해주는 프레임워크
 - 개발자가 SQL을 직접 작성하지 않아도 됨
 - 객체 지향적인 코드로 인해 재사용성이 높아짐
-- J
+-
 
 ## JPA
 
 - Java Persistence API
+- 자바 ORM 기술에 대한 API 표준 명세
+- JPA는 ORM을 사용하기 위한 인터페이스를 모아둔 것
+
+## Hibernate
+
+- JPA에 대한 실체 구현체를 모아 놓은 것
+- JPA를 사용하려면 구현체가 필요한데, Hibernate는 JPA의 구현체 중 하나
+
+## Spring Data JPA
+
+- Spring에서 JPA를 쉽게 사용할 수 있도록 도와주는 프레임워크
+- Repository 라는 인터페이스를 제공
+- Repository 인터페이스를 상속받는 인터페이스를 생성하고, 해당 인터페이스에는 JPA에서 제공하는 메소드를 사용할 수 있음
+- hibernate에서 자주 사용하는 메소드를 모아놓은 것
 
 ## MyBatis
 
@@ -119,6 +133,5 @@
     - 관점 지향 프로그래밍은 관점이라는 기능을 모듈화하여 공통적으로 사용할 수 있도록 하는 프로그래밍 기법
 - PSA
   - Portability Service Abstraction
-
 
 ## Batch
