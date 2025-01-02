@@ -1,5 +1,0 @@
-{"properties": [{
-  "name": "jpa.datasource.url",
-  "type": "java.lang.String",
-  "description": "A description for 'jpa.datasource.url'"
-}]}
