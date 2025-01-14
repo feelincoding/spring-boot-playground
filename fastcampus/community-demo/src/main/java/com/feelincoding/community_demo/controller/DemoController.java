@@ -12,7 +12,7 @@ public class DemoController {
         return "index";
     }
 
-    @GetMapping("/test")
+    @GetMapping("/test-api")
     public String getMethodName(@RequestParam String param) {
         return new String();
     }
