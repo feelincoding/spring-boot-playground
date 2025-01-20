@@ -10,10 +10,14 @@ logging:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/board
+    url: jdbc:mysql://127.0.0.1:3306/board
+    # url: jdbc:mysql://localhost:3306/board
     username: testuser01
     password: 1q2w3e4r!@#
     driver-class-name: com.mysql.cj.jdbc.Driver
+    # url: jdbc:h2:mem:testdb
+    # username: sa
+    # driver-class-name: org.h2.Driver
   jpa:
     defer-datasource-initialization: true
     hibernate.ddl-auto: create
@@ -21,18 +25,18 @@ spring:
     properties:
       hibernate.format_sql: true
       hibernate.default_batch_fetch_size: 100
-  h2:
-    console:
-      enabled: false
+  # h2:
+  #   console:
+  #     enabled: true
   sql:
     init:
       mode: always
 ---
-spring:
-  config.activate.on-profile: testdb
-  # datasource:
-  #   url: jdbc:h2:mem:board;mode=mysql
-  #   driver-class-name: org.h2.Driver
-  # sql.init.mode: always
-  # test.database.replace: none
+# spring:
+#   config.activate.on-profile: testdb
+#   datasource:
+#     url: jdbc:h2:mem:board;mode=mysql
+#     driver-class-name: org.h2.Driver
+#   sql.init.mode: always
+#   test.database.replace: none
     
